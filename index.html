@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <!-- Задача 1 -->
+      <button id="btn__1">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 2 -->
+      <button id="btn__2">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 3 -->
+      <button id="btn__3">Двойной счелчок по мне!</button>
+      <br />
+
+      <!-- Задача 4 -->
+      <div class="btn__4">Наведи на меня, а потом убери мышь!</div>
+      <br />
+
+      <!-- Задача 5 -->
+      <input type="text" id="input1" value="Ку-ку" />
+      <button id="btn__5">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 6 -->
+      <input type="text" id="input2" value="Ку-ку" />
+      <button id="btn__6">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 7 -->
+      <img id="img__1" src="img-1.jpg" alt="img" />
+      <br />
+      <button id="btn__7">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 8 -->
+      <input
+        type="text"
+        id="input3"
+        value="Нажми на меня!"
+        onfocus="displayValue(this)"
+      />
+      <br />
+
+      <!-- Задача 9 -->
+      <input
+        type="text"
+        id="input16"
+        value="Нажми на меня!"
+        onfocus="NewNameValue(this)"
+      />
+      <br />
+
+      <!-- Задача 10 -->
+      <input
+        type="text"
+        value="Нажми на меня!"
+        onfocus="changeValue(this, 0)"
+        onblur="changeValue(this, 1)"
+        style="width: 250px"
+      />
+      <br />
+
+      <!-- Задача 11 -->
+      <input
+        type="submit"
+        id="input17"
+        value="Нажми на меня!"
+        onclick="NameValue(this)"
+        style="width: 200px"
+      />
+      <br />
+
+      <!-- Задача 12 -->
+      <input
+        type="submit"
+        id="input18"
+        value="Нажми на меня!"
+        onclick="DisabledValue(this)"
+        style="width: 300px"
+      />
+      <br />
+
+      <!-- Задача 13 -->
+      <img src="img-1.jpg" alt="img" onmousemove="changeImg(this)" />
+      <br />
+
+      <!-- Задача 14 -->
+      <input type="text" id="input4" value="Ку-ку" />
+      <button id="btn__14">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 15 -->
+      <input type="text" id="input5" value="Ку-ку" />
+      <button id="btn__15">Нажми на меня!</button>
+      <button id="btn__16">Нажми потом на меня!</button>
+      <br />
+
+      <!-- Задача 17 -->
+      <input type="text" id="input11" value="Ку-ку" /> <br />
+      <button id="btn__17">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 18 -->
+      <input
+        type="submit"
+        value="0"
+        onclick="quantityValue(this)"
+        style="width: 300px"
+      />
+      <br />
+
+      <!-- Задача 19 -->
+      <input type="text" id="input12" value="Ку-ку" style="width: 300px" />
+      <button id="btn__19">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 21 -->
+      <input type="text" id="input14" value=" Привет!" />
+      <input type="text" id="input15" value="Пока!" />
+      <button id="btn__21">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 22 -->
+      <input type="text" id="input7" placeholder="Введите число!" />
+      <input type="text" id="input8" placeholder="Здесь появится результат." />
+      <button id="btn__22">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 23 -->
+      <input type="text" id="input9" placeholder="Введите число!" />
+      <input type="text" id="input10" placeholder="Здесь появится результат." />
+      <button id="btn__23">Нажми на меня!</button>
+      <br />
+
+      <!-- Задача 24 -->
+      <button id="btn__24">Нажми на меня!</button>
+      <br />
+
+       <!-- Задача 25 -->
+       <input type="text"  id="windowResult" ></br></br>
+       <input type="submit" onclick="AddVal('+')" value="Я добавлю +" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('-')" value="Я добавлю -" style="width: 150px;" ></br>
+       <input type="submit" onclick="AddVal('/')" value="Я добавлю /" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('*')" value="Я добавлю *" style="width: 150px;"></br></br></br>
+       <input type="submit" onclick="AddVal('1')" value="1" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('2')" value="2" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('3')" value="3" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('4')" value="4" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('5')" value="5" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('6')" value="6" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('7')" value="7" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('8')" value="8" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('9')" value="9" style="width: 150px;"></br>
+       <input type="submit" onclick="AddVal('0')" value="0" style="width: 150px;"></br>    
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
